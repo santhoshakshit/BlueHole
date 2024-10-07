@@ -42,7 +42,7 @@ Bluehole is an interactive voice assistant built using Python, Flask, and variou
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/santhoshakshit/
+   git clone https://github.com/santhoshakshit/BlueHole
    ```
 2. Install the necessary packages:
    ```bash
@@ -56,6 +56,7 @@ Bluehole is an interactive voice assistant built using Python, Flask, and variou
    ```bash
    device.bat
    ```
+   change the ip address according to your network
 5. Start the Flask server:
    ```bash
    python app.py
