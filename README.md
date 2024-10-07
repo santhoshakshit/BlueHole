@@ -1,4 +1,5 @@
 ---
+
 # Bluehole - Voice Assistant 🌀
 
 Welcome to **Bluehole**, your personal voice assistant! This assistant leverages various APIs and powerful tools to bring you a smooth, hands-free experience that integrates seamlessly with your system and mobile devices.
@@ -40,22 +41,26 @@ Bluehole is an interactive voice assistant built using Python, Flask, and variou
 ## Setup Instructions 🛠️
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/santhoshakshit/
    ```
 2. Install the necessary packages:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
-3. Run the `device.bat` to set up ADB for mobile integration:
-   ```
+3. **Download and set up ADB**:
+   - Download ADB from the official [Android Developer Tools](https://developer.android.com/studio/releases/platform-tools).
+   - Extract the platform tools to a folder (e.g., `C:\adb\platform-tools`).
+   - Add the folder to your system’s **Path** environment variable to easily use ADB commands from anywhere.
+4. Run the `device.bat` to set up ADB for mobile integration:
+   ```bash
    device.bat
    ```
-4. Start the Flask server:
-   ```
+5. Start the Flask server:
+   ```bash
    python app.py
    ```
-5. Access the application in your browser at `http://localhost:8000`.
+6. Access the application in your browser at `http://localhost:8000`.
 
 ## Technologies Used 🖥️
 - **Backend:** Flask, Python, SQLite
