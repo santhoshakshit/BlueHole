@@ -23,7 +23,7 @@ def add_single_contact(name, mobile_no):
 
 # Example usage: Adding a single contact
 # You can replace these values with actual input or use this as a function call
-contact_name = "blessy-1"
-contact_mobile_no = "9652243049"
+contact_name = "enter_name"
+contact_mobile_no = "enter_no"
 
 add_single_contact(contact_name, contact_mobile_no)
